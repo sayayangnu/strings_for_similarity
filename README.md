@@ -28,7 +28,6 @@ for each pair of sentences.
 * **HINT:** Use `sklearn` for pearsons and `nltk` for most similarity metrics.
 * **HINT:** The `nltk` implementation of NIST is buggy where overlap doesn't occur; catch `ZeroDivisionError` 
 and record 0, the lowest NIST score.
-* **HINT:** Word Error Rate is Levenshtein distance on words.
 * **HINT:** Sentence order is not important in the STS dataset, but it is for some metrics.
 In these cases, calculate the metric both ways and sum.
 
