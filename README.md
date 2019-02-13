@@ -6,6 +6,8 @@ Though semantics go beyond the surface representations seen in strings, some of 
 metrics constitute a good benchmark system for detecting STS.
 
 
+Data is from the [STS benchmark](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
+
 ## lab.py
 
 `lab.py` calculates Levenshtein distance for sentence pairs in an STS dataset.
