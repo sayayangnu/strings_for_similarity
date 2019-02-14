@@ -33,7 +33,7 @@ Submit as either a .zip file or a link to your repo on Canvas. Either must conta
 
 Example usage:
 
-`python lab.py --data stsbenchmark/sts-dev.csv`
+`python lab.py --sts_data stsbenchmark/sts-dev.csv`
 
 ## sts_pearson.py
 
