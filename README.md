@@ -8,17 +8,8 @@ metrics constitute a good benchmark system for detecting STS.
 
 Data is from the [STS benchmark](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
 
-## lab.py
+## Homework: sts_pearson.py
 
-`lab.py` calculates Levenshtein distance for sentence pairs in an STS dataset.
-
-Example usage:
-
-`python lab.py --data stsbenchmark/sts-dev.csv`
-
-## sts_pearson.py
-
-### Homework: 
 * Parse the STS data and calculate string similarity metrics (specified in starter code)
 for each pair of sentences. 
 * Calculate Pearsons R between each metric and the gold standard labels.
@@ -31,7 +22,22 @@ and record 0, the lowest NIST score.
 * **HINT:** Sentence order is not important in the STS dataset, but it is for some metrics.
 In these cases, calculate the metric both ways and sum.
 
-TODO: Replace the instructions above with a description of your code.
+Submit as either a .zip file or a link to your repo on Canvas. Either must contain: 
+1. updated README.md (see instructions under sts_pearson.py), 
+2. sts_pearson.py, 
+3. test_output.txt .
+
+## lab.py
+
+`lab.py` calculates Levenshtein distance for sentence pairs in an STS dataset.
+
+Example usage:
+
+`python lab.py --data stsbenchmark/sts-dev.csv`
+
+## sts_pearson.py
+
+TODO: Replace these instructions with a description of your code.
 * Use `.md` filetype
 * ~ 1 sentence about each of the metrics used.
 * Describe what your script does. Be affirmative and efficient 
